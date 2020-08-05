@@ -1,0 +1,24 @@
+.column {
+  float: left;
+  width: 25%;
+  background-color: aliceblue;
+  color: blue;
+}
+
+p.softness {
+  color: palevioletred;
+}
+
+.column p {
+  text-align: center;
+  font-family: cursive;
+}
+
+.intro {
+  margin: auto;
+  width: 45%;
+}
+
+.intro p {
+  text-align: center;
+}
