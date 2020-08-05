@@ -3,8 +3,17 @@
   width: 25%;
   background-color: aliceblue;
   color: blue;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
+.column h3 {
+  text-align: center;
+}
+.intro {
+  text-align: center;
+}
 p.softness {
   color: palevioletred;
 }
@@ -20,14 +29,23 @@ p.softness {
 }
 
 .intro p {
-  text-align: center;
+  color: crimson;
+}
+
+.box1 {
+  width: 45%;
+  border: goldenrod;
+  background-color: hotpink;
+  box-shadow: lawngreen;
+  box-sizing: border-box;
+  margin-top: 500px;
 }
 
 @media screen and (min-width: 760px) {
   .column {
     width: 300px;
     float: right;
-    padding: 20px
+    padding: 20px;
   }
 }
 
