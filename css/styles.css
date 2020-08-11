@@ -41,6 +41,14 @@ p.softness {
   margin-top: 500px;
 }
 
+.blue-background {
+  background-color: blue;
+}
+
+.pink-text{
+  color: pink;
+}
+
 @media screen and (min-width: 760px) {
   .column {
     width: 300px;
